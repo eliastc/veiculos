@@ -15,4 +15,7 @@ public class Veiculo {
     private Long id;
     private String nome;
     private String tipo;
+    private String descricao;
+    private String url_foto;
+    private String url_video;
 }
