@@ -53,6 +53,14 @@
 			<version>2.4.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger2 -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
 		<dependency>
 			<groupId>io.springfox</groupId>
@@ -68,8 +76,29 @@
 			<version>2.6.1</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-admin-->
+		<dependency>
+			<groupId>com.google.firebase</groupId>
+			<artifactId>firebase-admin</artifactId>
+			<version>8.1.0</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<!--<version>2.11.0</version> -->
+		</dependency>
 
 	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>spring-repo</id>
+			<url>https://maven.google.com/</url>
+		</repository>
+	</repositories>
 
 	<build>
 		<plugins>

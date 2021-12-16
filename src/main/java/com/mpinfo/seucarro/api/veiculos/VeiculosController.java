@@ -1,4 +1,4 @@
-package com.mpinfo.seucarro.api;
+package com.mpinfo.seucarro.api.veiculos;
 
 import com.mpinfo.seucarro.domain.Veiculo;
 import com.mpinfo.seucarro.domain.VeiculoService;
