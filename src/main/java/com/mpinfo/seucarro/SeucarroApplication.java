@@ -11,3 +11,12 @@ public class SeucarroApplication {
 	}
 
 }
+
+/**
+ * o mysql80 tem que esta rodando em services.msc
+ *
+ * fazewr tambem o git status
+ * git add .
+ * git commit -m "mensagem do que se fez"
+ * git push
+ */

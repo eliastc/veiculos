@@ -1,8 +1,8 @@
 package com.mpinfo.seucarro.api.security;
 
 import com.mpinfo.seucarro.api.security.jwt.JwtAuthenticationFilter;
-import com.mpinfo.seucarro.api.security.jwt.JwtAuthorizationFilter;
 import com.mpinfo.seucarro.api.security.jwt.handler.AccessDeniedHandler;
+import com.mpinfo.seucarro.api.security.jwt.JwtAuthorizationFilter;
 import com.mpinfo.seucarro.api.security.jwt.handler.UnauthorizedHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

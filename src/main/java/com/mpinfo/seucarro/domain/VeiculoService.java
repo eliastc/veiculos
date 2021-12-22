@@ -1,8 +1,8 @@
 package com.mpinfo.seucarro.domain;
 
 import com.mpinfo.seucarro.api.exception.ObjectNotFoundException;
-import com.mpinfo.seucarro.domain.dto.VeiculoDTO;
 
+import com.mpinfo.seucarro.domain.dto.VeiculoDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.Assert;
